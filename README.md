@@ -10,7 +10,7 @@ git clone https://github.com/nvd264/cxa-todo-app.git
 
 # Install
 ```javascript
-cd CXAToDoApp && yarn install
+cd cxa-todo-app && yarn install
 ```
 
 # Run on iOs
