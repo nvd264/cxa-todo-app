@@ -10,5 +10,14 @@ git clone https://github.com/nvd264/cxa-todo-app.git
 
 # Install
 ```javascript
-cd CXAToDoApp && react-native run-ios ( or run-android )
+cd CXAToDoApp && yarn install
+```
+
+# Run on iOs
+```javascript
+react-native run-ios
+```
+# Run on Android
+```javascript
+react-native run-android
 ```
