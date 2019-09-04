@@ -11,7 +11,7 @@ git clone https://github.com/nvd264/cxa-todo-app.git
 # Install
 ```javascript
 cd cxa-todo-app 
-checkout to develop branch
+git checkout develop
 yarn install
 ```
 
