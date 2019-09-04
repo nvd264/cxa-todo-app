@@ -1,9 +1,9 @@
-# cxa-todo-app
+## cxa-todo-app
 CXA - React Native - Todo
 
-# Setup
+## Setup
 
-## Clone source code
+# Clone source code
 ```javascript
 git clone https://github.com/nvd264/cxa-todo-app.git
 ```
@@ -15,11 +15,7 @@ checkout to develop branch
 yarn install
 ```
 
-# Run on iOs
+# Run
 ```javascript
-react-native run-ios
-```
-# Run on Android
-```javascript
-react-native run-android
+yarn start
 ```
