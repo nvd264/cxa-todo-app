@@ -1,7 +1,7 @@
-import {ADD_TODO, UPDATE_TODO, DELETE_TODO} from '../const';
+import {ADD_TODO, UPDATE_TODO, DELETE_TODO, TODOS} from '../const';
 
 const initialState = {
-    todos: [],
+    todos: TODOS,
 };
 
 export default function reducers(state = initialState, action) {

@@ -27,8 +27,8 @@ HomeStack.navigationOptions = {
       focused={focused}
       name={
         Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'md-information-circle'
+          ? 'ios-menu'
+          : 'md-menu'
       }
     />
   ),
@@ -46,7 +46,7 @@ const ActiveStack = createStackNavigator(
 ActiveStack.navigationOptions = {
   tabBarLabel: 'Acitve',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'} />
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-code-working' : 'md-code-working'} />
   ),
 };
 
@@ -62,7 +62,7 @@ const CompleteStack = createStackNavigator(
 CompleteStack.navigationOptions = {
   tabBarLabel: 'Completed',
   tabBarIcon: ({ focused }) => (
-    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-options' : 'md-options'} />
+    <TabBarIcon focused={focused} name={Platform.OS === 'ios' ? 'ios-checkmark' : 'md-checkmark'} />
   ),
 };
 
